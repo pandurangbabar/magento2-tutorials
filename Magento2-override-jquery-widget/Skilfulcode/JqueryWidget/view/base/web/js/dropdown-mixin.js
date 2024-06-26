@@ -13,7 +13,8 @@ define(['jquery'], function(jQuery) {
 			 */
 			open: function(){
 				console.log("I opended a dropdown!");
-
+				
+				//Call parent open for original functionality
 				return this._super();
 			}
 
